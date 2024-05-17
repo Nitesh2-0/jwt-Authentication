@@ -1,0 +1,21 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "description": "JWT - \r Header -> type of token => generaly use jwt -> RSA\r Payload -> \r Signature",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "npx nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.3.5",
+    "nodemon": "^3.1.0"
+  }
+}
